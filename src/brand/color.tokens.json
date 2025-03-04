@@ -6,6 +6,15 @@
       },
       "secondary": {
         "value": "#00bfcb"
+      },
+      "secondary-darken": {
+        "value": "#038496"
+      },
+      "opengem-blue": {
+        "value": "#04a5bb"
+      },
+      "opengem-orange": {
+        "value": "#e67f00"
       }
     }
   }
