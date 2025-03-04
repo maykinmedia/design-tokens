@@ -1,0 +1,12 @@
+{
+  "maykin": {
+    "color": {
+      "primary": {
+        "value": "#341a90"
+      },
+      "secondary": {
+        "value": "#00bfcb"
+      }
+    }
+  }
+}

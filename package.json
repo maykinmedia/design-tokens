@@ -1,0 +1,43 @@
+{
+  "name": "@maykinmedia/design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for Maykin theme",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "src/",
+    "assets/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build -c style-dictionary.config.json",
+    "start": "chokidar --initial --command 'npm run build' 'src/**/*.tokens.json' 'src/**/tokens.json'",
+    "format": "prettier --write 'src/**/*'",
+    "checkformat": "prettier --check 'src/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maykinmedia/design-tokens.git"
+  },
+  "keywords": [
+    "style-dictionary",
+    "nl",
+    "design",
+    "system",
+    "NLDS",
+    "common",
+    "ground"
+  ],
+  "author": "Maykin Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maykinmedia/design-tokens/issues"
+  },
+  "homepage": "https://github.com/maykinmedia/design-tokens#readme",
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "chokidar-cli": "^3.0.0",
+    "prettier": "^3.5.3",
+    "style-dictionary": "^4.3.3"
+  }
+}
