@@ -2,7 +2,7 @@
   "utrecht": {
     "heading-1": {
       "color": {"value": "#37373c"},
-      "font-size": {"value": "3.75rem"},
+      "font-size": {"value": "2.75rem"},
       "font-weight": {"value": 700}
     },
     "heading-2": {
