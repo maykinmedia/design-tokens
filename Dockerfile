@@ -1,4 +1,4 @@
-ARG NGINX_VERSION=1.21
+ARG NGINX_VERSION=1.27
 
 # Stage 1 -- install dev tools and build bundle
 FROM node:22-bookworm-slim AS build
