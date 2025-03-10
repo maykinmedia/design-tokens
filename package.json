@@ -1,6 +1,6 @@
 {
   "name": "@maykinmedia/design-tokens",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Design tokens for Maykin theme",
   "main": "dist/index.js",
   "files": [
